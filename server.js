@@ -3,7 +3,7 @@ require('dotenv').config()
 // Middleware Autenticação (Desenvolvimento)
 const middleware = function(req, res, next){
 
-    console.log(req)
+    //console.log(req)
 
     next()
 }
